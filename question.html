@@ -1,0 +1,443 @@
+<!doctype html>
+<!--
+	Template:	 Unika - Responsive One Page HTML5 Template
+	Author:		 imransdesign.com
+	URL:		 http://imransdesign.com/
+    Designed By: https://www.behance.net/poljakova
+	Version:	1.0	
+-->
+<html lang="en-US">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unika - Responsive One Page HTML5 Template</title>
+    <meta name="description" content="Unika - Responsive One Page HTML5 Template">
+    <meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
+    <meta name="author" content="imransdesign.com">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <!-- Body font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <!-- Navbar font -->
+
+    <!-- Libs and Plugins CSS -->
+    <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inc/animations/css/animate.min.css">
+    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css">
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skin/cool-gray.css">
+    <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
+    <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
+    <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
+    <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel="stylesheet" href="css/whatsap.css">
+    <link rel="stylesheet" href="css/social.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="open/css/style.css">
+    <!--Responsive-->
+    <link rel="stylesheet" type="text/css" href="open/css/responsive.css">
+    <!--Animation-->
+    <link rel="stylesheet" type="text/css" href="open/css/animate.css">
+    <!--Prettyphoto-->
+    <!--Owl-Slider-->
+
+    <style>
+                @import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+        *,
+        *:before,
+        *:after {
+            -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+        
+        html {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        h3 {
+            font-size: 1.75rem;
+            color: #373d51;
+            padding: 1.3rem;
+            margin: 0;
+        }
+        
+        .accordion a {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            width: 100%;
+            padding: 1rem 3rem 1rem 1rem;
+            color: #7288a2;
+            font-size: 1.15rem;
+            font-weight: 400;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        
+        .accordion a:hover,
+        .accordion a:hover::after {
+            cursor: pointer;
+            color: #ff5353;
+        }
+        
+        .accordion a:hover::after {
+            border: 1px solid #ff5353;
+        }
+        
+        .accordion a.active {
+            color: #ff5353;
+            border-bottom: 1px solid #ff5353;
+        }
+        
+        .accordion a::after {
+            font-family: 'Ionicons';
+            content: '\f218';
+            position: absolute;
+            float: right;
+            right: 1rem;
+            font-size: 1rem;
+            color: #7288a2;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            border: 1px solid #7288a2;
+            text-align: center;
+        }
+        
+        .accordion a.active::after {
+            font-family: 'Ionicons';
+            content: '\f209';
+            color: #ff5353;
+            border: 1px solid #ff5353;
+        }
+        
+        .accordion .content {
+            opacity: 0;
+            padding: 0 1rem;
+            max-height: 0;
+            border-bottom: 1px solid #e5e5e5;
+            overflow: hidden;
+            clear: both;
+            -webkit-transition: all 0.2s ease 0.15s;
+            -o-transition: all 0.2s ease 0.15s;
+            transition: all 0.2s ease 0.15s;
+        }
+        
+        .accordion .content p {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+        
+        .accordion .content.active {
+            opacity: 1;
+            padding: 1rem;
+            max-height: 100%;
+            -webkit-transition: all 0.35s ease 0.15s;
+            -o-transition: all 0.35s ease 0.15s;
+            transition: all 0.35s ease 0.15s;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar">
+    <!-- Display loading image while page loads -->
+    <div class="body">
+
+        <!--========== BEGIN HEADER ==========-->
+        <header id="menu">
+            <div class="navbar navbar-default navbar-fixed-top" style="background-color:#2d3035;">
+                <div class="container">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                            <a class="navbar-brand" href="#menu"><img src="open/images/Logo/0.png" alt=""></a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                  <li class="active"><a class="scroll" href="index.html">ANASAYFA</a></li>
+                                <li><a class="scroll" href="galery.html">GALERİ</a></li>
+                                <li><a class="scroll" href="question.html">KUMLAMAYA DAİR?</a></li>
+                                 <li><a class="scroll" href="about.html">HAKKIMIZDA</a></li>
+                                <li><a class="scroll" href="contact.html">İLETİŞİM</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+            </div>
+        </header>
+        <!-- ========= END HEADER =========-->
+<section id="about-section" class="page bg-style1">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <br><br><br>
+                        <h2></h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">Kurulduğu günden bu yana sürekli gelişmeyi ve müşteri odaklılığını benimseyen Sanat Kumlama, sektörüne sürekli yatırım yapan, markasal sorumluluğun bilincinde bir firmadır.</p>
+
+
+                        <br><br><br><br><br><br>
+
+                        <div class="col-md-12 col-sm-12">
+                            <h3>KUMLAMAYA HAKKINDA MERAK EDİLENLER</h3>
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <a>Kumlama Nedir?</a>
+                                    <div class="content">
+                                        <p>Kumlama, paslanmaz çelik ya da metalin üzerindeki kiri, yağı, pası ve korozyonu kaldırıp yüzeyin tekrar boyanmasını içeren yüzey temizleme işlemidir. Paslanmazda kumlama paslanmaz çeliğin zaten uzun olan ömrünün
+                                            daha da uzamasını sağlar.Kumlama işlemi yapılırken özel olarak imal edilmiş grit diye bilinen aşındırıcı maddeler kullanılır. Kumlama, yüzeydeki mikro partikülleri temizlediği temizleyip paslanmaz çelik ve metalin
+                                            özünü ortaya çıkartmaktadır.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Kumlama Nasıl Yapılır?</a>
+                                    <div class="content">
+                                        <p>Kumlama, kumun yüksek basınç ile metal yüzeye çarptırılması işlemidir. Yüzeydeki kir, yağ, pas gibi istenmeyen maddeyi temizler. Açık alanda kumlama yapmak için kumlama kazanları kullanılır. Açık sistemler ile tersanelerdeki
+                                            gemi ya da büyük yapıların kumlaması gerçekleştirilir. Orta boy parçalar içinse daha küçük kumlama kabinleri kurulur. Parçaların yüzey temizliği bu kabin içerisinde yapılır. Küçük ve kapalı sistem olan kumlama
+                                            kabinleri küçük yere sahip firmalar için ideal kumlama teknikleri arasındadır.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Kumlamada Kullanılan Malzemeler Nelerdir?</a>
+                                    <div class="content">
+                                        <p>Kumlama makinelerinde metal, cam ya da mineral esaslı aşındırıcı malzemeler kullanılabilir. Kumlama makinesine ve kumlanacak alanın malzemesinin cinsine göre seçilen malzeme farklılık gösterebilir. Kumlama yaparken
+                                            nozul, nozul tutucu, maske ve eldiven gibi koruyucu ürünler kullanılmalıdır. Bu hem güvenliği hem de işin verimli yapılabilmesi için yardımcı olur.Kumlama sarf malzemeleri olarak; paslanmaz çelik bilya, cam
+                                            kürecik, alüminyum oksit bilya, çelik grid, bazalt silis, kuvars gibi aşındırıcılar kullanılabilir. Özellikle orjinal taş kırması kumlar, çok hafif şiddette yapılacak olan kumlama tekniği ile birlikte kullanılır. Taş kırması kumları
+                                            kullanmak yüzeyin bozulmamasını sağlayacaktır. Grid ise kumlama gücü en yüksek olan kum çeşididir. Demir artığı olarak da bilinen grid, özellikle büyük yüzeylerde kullanılır. <br><br>
+                                            <strong style="color=red;">NOT: Sağlık Bakanlığı tarafından yasaklanmış kumları kullanmak SİLİKOZİS(Akciğer Kanseri) yapmaktadır.Ticari çıkarlarınız için sağlığımızı tehlikeye atmamalıyız! Hiçbir zenginlik sağlığımızdan daha önemli değildir..</strong> </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Yüzey Temizlik Değerler Aralığı Nedir?</a>
+                                    <div class="content">
+                                        <p>ISO 8501-1:1998 ve TSE EN ISO 8501-1 standardına göre değerlendirilir.ISO 8501-1’e göre yüzey temizlik değerleri aşağıdaki gibidir.<br> Sa 1
+                                             %80 Hafif temizlenmiş<br>
+                                            Sa 2 %80 İyi temizlenmiş<br> Sa 2.5 %96 Çok iyi temizlenmiş<br> Sa 3 %99 Komple temizlenmiş </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Metal Kumlama Nedir?</a>
+                                    <div class="content">
+                                        <p>Metal kumlama da metal küreler kumlama işleminde aşındırıcı olarak kullanılabilir.Kumlama metallerin üzerindeki kir ve pasın temizlenmesi için yapılmaktadır.Ayrıca kumlama yapılan metalin ömrü,dayanıklılığı artar.Bu
+                                            yüzden belli dönemde metallerin üzerine kumlama yapılması ve ardından sağlıklı boyalarla boyanması ürünün ömrünü mümkün oldukça uzatmak adına yapılan işlemlerdir.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Ahşap Kumlama Nedir?</a>
+                                    <div class="content">
+                                        <p>Ahşap kumlama, ahşap yüzeyi üzerindeki boya, kalıntı ve çeşitli kirleri temizlemek için etkili bir yöntemdir. Yapılan temizliğin ötesinde, ahşap yüzeyin orijinal haline dönmesini sağlar.Ahşap kumlama uygulaması
+                                            kontollü bir şekilde basınçlı hava ile yüzey üzerine püskürtülen uygun abrasivlerle yapılır. Kullanılan makine, ekipman ve abrasiv önemli olmakla beraber bu işi yapacak olan operatörün ustalığı da önem arz eder.
+                                            Ahşap kumlama işlemi daha çok yüzey temizliği maksadıyla yapılsa da, dekoratif amaçlı olarak, hızlı bir şekilde estetik görünümlü ahşap yüzeyleri elde etmek için de uygulanmaktadır. Bu yöntem en uygun maliyetli,
+                                            ahşap yüzey temizleme ve yenileme uygulamasıdır. Arzu edilen yüzey kalitesi standart olarak ve hızlı bir şekilde elde edilir.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Mermer Kumlama Nedir?</a>
+                                    <div class="content">
+                                        <p>Mermer kumlama, kumlama makineleri ile gerçekleştirilen bir işlemi ifade etmektedir. Genellikle verniklenen mermer levhalar zemin kaplamalarına uygun bir hale getirilmek için kumlama işlemine maruz kalır.Kumlama
+                                            işlemi yapılarak mermerin yüzey direnci artırılarak ıslandığında kayganlaşmaması sağlanır aynı zamanda dayanıklılığı artan mermer havuz, balkon, bahçe duvarları, peyzaj alanları gibi dış mekanlarınız için lüks
+                                            ve şık çözümler sağlar.Kumlama yöntemi, taşın doğal görünümünü iyileştiren özel bir yüzey sağlar. Bu tür bir son kat, yüzeyi düz ve eşit tutarken yüzeyi pürüzlü ve opak yapan yüksek basınçlı bir kumlama yöntemi
+                                            kullanılarak elde edilir.Kumlama tekniği çalı çekiçleme gibi geleneksel cilalara çok benzer. Ancak maliyetler daha makul ve tamamlanma süreleri önemli ölçüde daha hızlıdır. </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Sulu Kumlama Nedir?</a>
+                                    <div class="content">
+                                        <p>Sulu Kumlama; en basit anlatımı ile, kum adı verilen, kuma benzeyen, ama aslında bildiğimiz kumdan farklı, bu iş için özel olarak imal edilmiş, silis, bazalt, grid, hatta cam tozu adında çeşitleri olan ve kullanım
+                                            yerleri farklı özel maddeler ile yapılır.Sulu sistem kumlamadaki ana amaç yüzeyin temizlenmesidir. Yüzey temizliğinde Boya, pas gibi problemli yerlerde mükemmel bir temizleme yapar.Sulu kumlama ile ilgili farklı
+                                            temizleme yüzdeleri standart hale getirilmiş ve ISO 8501-1 içersinde değerlendirilmiştir. Kumlama sektoründe bu standart görsellerle karşılaştırma şeklinde kullanılmaktadır. Sa değerleri büyüdükçe Kumlama yapılmış
+                                            yüzey kalitesi artmaktadır.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>Taş Kumlama Nedir?</a>
+                                    <div class="content">
+                                        <p> Hassas kumlama işleminin gerçekleştirilebilmesi için çok özel bir şekilde üretilmiş ithal makineler tercih edilmektedir. Bu makineler birçok farklı zemin üzerinde kolaylıkla işlem yapılması için gerekli kimyasalları
+                                        kullanır ve tam profesyonel bir sonuç ortaya çıkarır. Bu çerçevede işlem yapılabilecek yüzeyler arasında dikey zeminler, yatay zeminler, döşemeler, yükseltiler, basamaklar gibi noktalar bulunmaktadır.<br>
+
+                                        Yüzeyde tazelenmiş bir görüntü elde etmek için uygulanan kumlama ve fırçalama işlemleri, aynı zamanda yüzey üzerinde yer alan lekeleri, pasları kirve izlerin hepsini ortadan kaldırır. Aslında bu yapısı ile birlikte sadece 
+                                        temizlik değil onarım işlemi de sağlayan bir hizmet olarak görüldüğü için restorasyon çalışmalarında da proje içerisinde yer alır.<br>
+
+                                        Doğal taş üzerinde kumlama fırçalama uygulanması için yüzeyin yapısı ve döşeme malzemesi göz önüne alınmaksızın birçok farklı zeminde istenilen olumlu sonuçlar elde edilebilir. Ev içi veya ev dışı merdiven basamaklarında, 
+                                        teras, balkon, çatı arası gibi bölgelerde, bina dışı duvar kaplamalarında, havuz kenarı zeminlerde, ofislerde veya otel gibi birçok farklı noktada bu işlemler yapılabilir.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <br><br><br>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!-- Begin contact section -->
+        <section id="contact-section" class="page text-white parallax" style="background-image: url(img/map-bg.jpg);">
+            <div class="cover"></div>
+
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown">
+                        <h2 style='font-family: "Times New Roman", Times, serif;'>İLETİŞİM</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">BİZİMLE İLETİŞİME GEÇİN..</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+
+            <div class="contact wow bounceInRight">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-sm-6 col-md-4">
+                            <h4>KULLANDIĞIMIZ SAYFALAR</h4>
+                            <ul class="imp-links">
+                                <li><a href="index.html">ANASAYFA</a></li>
+                                <li><a href="about.html">HAKKIMIZDA</a></li>
+                                <li><a href="galery.html">GALERİ</a></li>
+                                <li><a href="questions.html">KUMLAMA HAKKINDA</a></li>
+                                <li><a href="contact.html">İLETİŞİM</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-sm-6 col-md-4">
+                            <div class="contact-info">
+                                <h4>ADRESİMİZ</h4>
+                                <ul class="contact-address">
+                                    <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Cumhuriyet Cad. Dede İş Merkezi/ Erzurum</li>
+                                    <li><a href="tel:+905354622881" style="color:white;"><i class="fa fa-phone"></i>&nbsp; 0535 462 2881</a></li>
+                                    <li><a href="mailto:info@sanatkumlama.com" style="color:white;"><i class="fa fa-envelope"></i> info@sanatkumlama.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-sm-6 col-md-4">
+                            <div class="contact-form">
+                                <h4>BİZE YAZIN</h4>
+                                <form role="form">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-lg" placeholder="ADINIZ" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control input-lg" placeholder="E-mail" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control input-lg" rows="5" placeholder="MESAJINIZ.." required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn wow bounceInRight">GÖNDER</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+        </section>
+        <!-- Begin footer -->
+        
+            
+        <footer class="text-off-white">
+            <div class="footer">
+                <div class="container text-center wow fadeIn">
+                    <p class="copyright" style="color:white">TELİF HAKKI &copy; 2021 - SANAT KUMLAMA & İNSAAT -- TÜM HAKLARI SAKLIDIR.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- Begin prices section -->
+        <!-- Scroll to top button -->
+
+
+
+
+
+        <!-- Plugins JS -->
+        <script src="inc/jquery/jquery-1.11.1.min.js"></script>
+        <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+        <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="inc/stellar/js/jquery.stellar.min.js"></script>
+        <script src="inc/animations/js/wow.min.js"></script>
+        <script src="inc/waypoints.min.js"></script>
+        <script src="inc/isotope.pkgd.min.js"></script>
+        <script src="inc/classie.js"></script>
+        <script src="inc/jquery.easing.min.js"></script>
+        <script src="inc/jquery.counterup.min.js"></script>
+        <script src="inc/smoothscroll.js"></script>
+
+        <!-- Theme JS -->
+        <script src="js/theme.js"></script>
+
+
+<script>
+        // Code By Webdevtrick ( https://webdevtrick.com )
+        const items = document.querySelectorAll(".accordion a");
+
+        function toggleAccordion() {
+            this.classList.toggle('active');
+            this.nextElementSibling.classList.toggle('active');
+        }
+
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script>
+
+
+
+</div>
+
+</body>
+
+
+</html>
